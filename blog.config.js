@@ -3,11 +3,11 @@ const BLOG = {
   author: 'thien',
   email: 'hi@thien.me',
   link: 'https://thien.me',
-  description: 'thien\'s blog',
+  description: 'blog',
   lang: 'en-US',
-  appearance: 'auto', // ['light', 'dark', 'auto'],
+  appearance: 'dark', // ['light', 'dark', 'auto'],
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#111827', // use hex value, don't forget '#'
+  darkBackground: '#000000', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
   postsPerPage: 7,

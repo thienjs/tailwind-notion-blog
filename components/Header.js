@@ -64,34 +64,13 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className="flex items-center">
           <Link href="/">
-            <div className="h-6">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  width="24"
-                  height="24"
-                  className="fill-current text-black dark:text-white"
-                />
-                <rect width="24" height="24" fill="url(#paint0_radial)" />
-                <defs>
-                  <radialGradient
-                    id="paint0_radial"
-                    cx="0"
-                    cy="0"
-                    r="1"
-                    gradientUnits="userSpaceOnUse"
-                    gradientTransform="rotate(45) scale(39.598)"
-                  >
-                    <stop stopColor="#CFCFCF" stopOpacity="0.6" />
-                    <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
-                  </radialGradient>
-                </defs>
-              </svg>
+            <div className="">
+            <svg width="2em"
+             height="2em" 
+             className="text-black dark:text-white"
+             viewBox="0 0 24 24">
+              <path d="M9 7h6v2h-2v8h-2V9H9V7M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m0 2v14h14V5H5z" 
+              fill="currentColor"></path></svg>
             </div>
           </Link>
           {navBarTitle ? (
@@ -100,8 +79,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
             </p>
           ) : (
             <p className="ml-2 font-medium text-gray-500 dark:text-gray-400 header-name">
-              {BLOG.title},{' '}
-              <span className="font-normal">{BLOG.description}</span>
+              {BLOG.title}
             </p>
           )}
         </div>

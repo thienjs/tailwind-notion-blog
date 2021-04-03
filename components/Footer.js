@@ -17,9 +17,9 @@ const Footer = ({ fullWidth }) => {
             target="_blank"
             rel="noreferrer"
           >
-            Nobelium
+            blog
           </a>{' '}
-          is built with ♥ and ⚛ Next.js. Proudly deployed on ▲Vercel.
+          is built with ♥ and ⚛ Next.js, and  ▲Vercel.
         </p>
         <p>
           © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}

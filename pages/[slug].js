@@ -9,7 +9,7 @@ const BlogPost = ({ post, blockMap }) => {
     <>
       <style jsx>{`
         :global(.notion) {
-          @apply text-gray-600 dark:text-gray-300;
+          @apply text-gray-300;
           overflow-wrap: break-word;
         }
         :global(.notion),

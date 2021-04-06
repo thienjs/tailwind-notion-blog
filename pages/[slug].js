@@ -30,7 +30,7 @@ const BlogPost = ({ post, blockMap }) => {
           color: inherit;
         }
         :global(.notion-code > code) {
-          color: unset;
+          color: inherit;
         }
 
         :global(pre[class*='language-']) {
